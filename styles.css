@@ -1,9 +1,11 @@
+/*This makes it so that borders and padding are included in the box size*/
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+/*Border around the octocat images*/
 .octocat img{
   width:100%;
   border: 1px solid lightgrey;
@@ -12,6 +14,7 @@
 
 }
 
+/*Make each octocat element about a third of the page, and put a border on the bottom*/
 .octocat{
   width:31%;
   margin:9px;
@@ -20,6 +23,7 @@
   display: inline-block;
 }
 
+/*Sizing the author pictures, adding a rounded white border around them, positioning them to the right*/
 .authors img{
   width: 30px;
   border: 1px solid white;
@@ -30,14 +34,17 @@
   top: 10px;
 }
 
+/*Shifts entire row of octocats to the left (default padding was 40px)*/
 .octodex{
   padding: 0;
 }
 
+/*adds hashtag to image numbers*/
 .image-number:before {
    content: "#";
 }
 
+/*makes footer text bold and gray and positions it*/
 .image-footer{
   font-weight: bold;
   color: grey;
@@ -48,37 +55,44 @@
   top: -10px;
 }
 
+/*makes caption links not underlined and black*/
 .image-caption a{
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
+/*positions image captains*/
 .image-caption{
   display: inline;
   float: right;
 }
 
+/*positions the author photos and takes away bullet points from the list*/
 .image-caption li{
   list-style-type: none;
   display: inline;
 }
 
+/*positions and colors the image number*/
 .image-number{
   color:lightgrey;
   float: left;
 }
 
+/*positions row of author pictures*/
 .image-caption ul {
   display: inline;
   padding:0;
 }
 
+/*positions image caption*/
 .image-caption span, a {
   position: relative;
   top: -10px;
 }
 
+/*creates and positions arrow*/
 .arrow{
 	width: 0;
 	height: 0;
