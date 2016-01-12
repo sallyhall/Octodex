@@ -1,5 +1,7 @@
 # Intro to HTML/CSS Layout
 
+Class assignment. View it live at http://sallykingston.me/Octodex/.
+
 ## Description
 CSS Layout is one of the most important things to learn early on. This exercise helps you learn that
 
