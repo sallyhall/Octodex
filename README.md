@@ -41,7 +41,7 @@ Normal Mode description
 * Using the HTML in [index.html](./index.html), add CSS to make it look the same as [octodex.png](./octodex.png)
 * Copy the `index.html` file into your project folder and create your own `main.css` file and make the HTML look like picture below.
 
-![](octodex.png)
+![](octocat.png)
 
 ## Additional Resources
 
